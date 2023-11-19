@@ -1,0 +1,28 @@
+﻿<Page x:Class="ST10102647_Lufuno_POE_TASK3.Buying"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ST10102647_Lufuno_POE_TASK3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Buying">
+
+    <Grid Background="Gray">
+        <Label x:Name="Heading1" Content="BUDGETING APP" HorizontalAlignment="Left" Margin="310,0,0,0" VerticalAlignment="Top" Height="32" Width="142" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="buylb1" Content="BUYING A PROPERTY" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="buylb2" Content="PURCHASE PRICE OF THE PROPERTY" HorizontalAlignment="Left" Margin="100,47,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="buylb3" Content="TOTAL DEPOSIT" HorizontalAlignment="Left" Margin="111,76,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="buylb4" Content="INTEREST RATE(%)" HorizontalAlignment="Left" Margin="111,115,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="buylb5" Content="NUMBER OF MONTHS TO REPAY" HorizontalAlignment="Left" Margin="111,155,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="buytb1" HorizontalAlignment="Left" Margin="437,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Height="29" FontWeight="Bold" FontSize="14" TextAlignment="Center"/>
+        <TextBox x:Name="buytb2" HorizontalAlignment="Left" Margin="437,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Height="29" FontWeight="Bold" FontSize="14" TextAlignment="Center"/>
+        <TextBox x:Name="buytb3" HorizontalAlignment="Left" Margin="437,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Height="29" FontWeight="Bold" FontSize="14" TextAlignment="Center"/>
+        <Button x:Name="buybtn1" Content="PROCEED" HorizontalAlignment="Left" VerticalAlignment="Top" Height="43" Width="114" FontWeight="Bold" FontSize="16" Click="buybtn1_Click" RenderTransformOrigin="0.568,-0.197" Margin="400,270,0,0" />
+        <Button x:Name="buybtn2" Content="CALCULATE" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="44" Width="114" FontWeight="Bold" FontSize="16" Click="buybtn2_Click" RenderTransformOrigin="0.504,1.915" Margin="198,269,0,0"/>
+        <TextBox x:Name="buytb4" HorizontalAlignment="Left" Margin="198,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="47" FontWeight="Bold" FontSize="16" TextAlignment="Center"/>
+        <TextBox x:Name="buytb5" HorizontalAlignment="Left" Margin="437,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Height="29" FontWeight="Bold" FontSize="14" TextAlignment="Center"/>
+
+
+    </Grid>
+</Page>

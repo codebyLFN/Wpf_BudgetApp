@@ -1,0 +1,21 @@
+﻿<Page x:Class="ST10102647_Lufuno_POE_TASK3.Renting"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ST10102647_Lufuno_POE_TASK3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Renting">
+
+    <Grid Background="Gray">
+        <Label x:Name="Heading1" Content="BUDGETING APP" HorizontalAlignment="Left" Margin="310,0,0,0" VerticalAlignment="Top" Height="32" Width="142" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="rentlb1" Content="RENTING ACCOMODATION" HorizontalAlignment="Left" Margin="29,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="rentlb2" Content="MONTHLY RENTAL AMOUNT :" HorizontalAlignment="Left" Margin="62,105,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="renttb" HorizontalAlignment="Left" Margin="295,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" Height="40" FontWeight="Bold" TextAlignment="Center" FontSize="14"/>
+        <Button x:Name="rentbtn1" Content="PROCEED" HorizontalAlignment="Left" Margin="400,314,0,0" VerticalAlignment="Top" Height="47" Width="146" FontWeight="Bold" FontSize="16" Click="rentbtn1_Click"/>
+        <Button x:Name="rentbtn2" Content="CALCULATE" HorizontalAlignment="Left" Margin="187,314,0,0" VerticalAlignment="Top" Height="47" Width="146" FontWeight="Bold" FontSize="16" Click="rentbtn2_Click"/>
+        <TextBox x:Name="renttb2" HorizontalAlignment="Left" Margin="62,187,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="617" Height="62" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Page>

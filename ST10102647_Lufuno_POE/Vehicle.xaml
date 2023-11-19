@@ -1,0 +1,31 @@
+﻿<Page x:Class="ST10102647_Lufuno_POE_TASK3.Vehicle"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ST10102647_Lufuno_POE_TASK3"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="800"
+      Title="Vehicle">
+
+    <Grid Background="Gray" RenderTransformOrigin="0.506,0.428">
+        <Label x:Name="Heading1" Content="BUDGETING APP" HorizontalAlignment="Left" Margin="310,0,0,0" VerticalAlignment="Top" Height="32" Width="142" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="vehlb1" Content="BUY VEHICLE" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="vehlb2" Content="MODEL" HorizontalAlignment="Left" Margin="72,107,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="vehlb3" Content="MAKE" HorizontalAlignment="Left" Margin="66,66,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="vehlb4" Content="PURCHASE PRICE" HorizontalAlignment="Left" Margin="66,159,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="vehlb5" Content="INTEREST RATE( %)" HorizontalAlignment="Left" Margin="72,278,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="vehlb6" Content="ESTIMATED INSURANCE PREMIUM" HorizontalAlignment="Left" Margin="66,325,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="vehtb1" HorizontalAlignment="Left" Margin="363,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontWeight="Bold" FontSize="14" TextAlignment="Center" Height="42"/>
+        <TextBox x:Name="vehtb2" HorizontalAlignment="Left" Margin="363,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontWeight="Bold" FontSize="14" TextAlignment="Center" Height="42"/>
+        <TextBox x:Name="vehtb3" HorizontalAlignment="Left" Margin="363,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontWeight="Bold" FontSize="14" TextAlignment="Center" Height="42"/>
+        <TextBox x:Name="vehtb4" HorizontalAlignment="Left" Margin="363,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontWeight="Bold" FontSize="14" TextAlignment="Center" Height="42"/>
+        <TextBox x:Name="vehtb5" HorizontalAlignment="Left" Margin="363,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontWeight="Bold" FontSize="14" TextAlignment="Center" Height="42"/>
+        <Button x:Name="vehbtn1" Content="PROCEED" HorizontalAlignment="Left" VerticalAlignment="Top" Height="46" Width="122" FontWeight="Bold" FontSize="16" Click="vehbtn1_Click" Margin="424,488,0,0"/>
+        <Button x:Name="vehbtn2" Content="CALCULATE" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="46" Width="122" FontWeight="Bold" FontSize="16" Click="vehbtn2_Click" Margin="141,488,0,0"/>
+        <TextBox x:Name="vehlistbox" HorizontalAlignment="Left" Margin="141,400,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="454" Height="77" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="vehtb6" HorizontalAlignment="Left" Margin="362,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontWeight="Bold" FontSize="14" TextAlignment="Center" Height="42"/>
+        <Label x:Name="vehlb7" Content="DEPOSIT" HorizontalAlignment="Left" Margin="72,214,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Page>
